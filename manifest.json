@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Extension Name",
+  "description": "A description of the Extension",
+  "version": "1.0",
+
+  "permissions": [
+
+  ],
+
+  "browser_action": {
+    "default_title": "Extension Title on Hover",
+    "default_icon": "images/icon.png",
+    "default_popup": "html/popup.html"
+  }
+}

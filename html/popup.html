@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Title of the extension</title>
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <script src="../js/jquery-1.10.2.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+  </head>
+  <body>
+    
+    <ul class="nav nav-tabs" id="myTab">
+      <li class="active"><a href="#home">Home</a></li>
+      <li><a href="#settings"><span class="glyphicon glyphicon-wrench"></span></a></li>
+    </ul>
+
+    <div class="tab-content">
+      <div class="tab-pane active" id="home">
+        <button type="button" class="btn btn-success set-badge">Set badge</button>
+        <button type="button" class="btn btn-warning reset-badge">Reset badge</button>
+        <!-- Content will be appended here. Check js/main,js -->
+      </div>
+      <div class="tab-pane" id="settings">This is the settings tab</div>
+    </div>
+
+  </body>
+</html>
