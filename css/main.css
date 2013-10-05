@@ -23,3 +23,13 @@ body {
   text-align: center;
   margin-bottom: 10px;
 }
+
+form.settings label{
+ width: 100px;
+ display: block;
+ float: left;
+}
+
+form.settings .form-item{
+  clear: both;
+}
