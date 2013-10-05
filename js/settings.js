@@ -8,7 +8,7 @@
  * When the cancel button is clicked, the current values are overwritten by the last
  * that were saved.
  *
- * Values from the storage can be passed to a callback via get(key, callback).
+ * Values from the storage can be passed to a callback via get(key, callback)
  */
 var Settings = function(jQuery, form) {
   var $ = jQuery;
